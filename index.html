@@ -1,0 +1,98 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PWA</title>
+<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
+<link rel="manifest" href="manifest.json">
+    
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="PWA">
+<meta name="apple-mobile-web-app-title" content="PWA">
+<meta name="theme-color" content="#2196F3">
+<meta name="msapplication-navbutton-color" content="#2196F3">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/index.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    
+<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+    
+
+
+</head>
+<body>
+
+
+<div class="callout large secondary">
+<div class="row column text-center">
+    
+<centre><img src="images/logo.png"></centre> <br>
+<h2 class="subheader">Progressive Web App</h2>
+</div>
+</div><br><br><br>
+
+<div class="row medium-8 large-7 columns">
+<div class="blog-post">
+<h4>All You need to know about Progressive Web App <small>Dec 19, 2017</small></h4><br>
+<img class="thumbnail" src="images/1.jpg">
+<p>By now you must have heard this buzz word called <b>“ Progressive Web App ”.</b> Let me give you a simple definition about <b>PWAs.</b> <strong><i>"Progressive Web Apps are Web Apps which combines the best features of Web and Native Apps. It is progressive because it is constantly progressing."</i></strong>  <a href="https://codeburst.io/all-you-need-to-know-about-progressive-web-app-4ba73368da66" >Read More:</a>  </p>
+<div class="callout">
+<ul class="menu simple">
+<li><a href="https://souravnanda.me/">Author: Sourav Kumar Nanda</a></li>
+<li><a href="#">Comments: </a></li>
+</ul>
+</div>
+</div>
+<div class="blog-post">
+<h4>All You need to know about Progressive Web App <small>Dec 19, 2017</small></h4><br>
+<img class="thumbnail" src="images/1.jpg">
+<p>By now you must have heard this buzz word called <b>“ Progressive Web App ”.</b> Let me give you a simple definition about <b>PWAs.</b> <strong><i>"Progressive Web Apps are Web Apps which combines the best features of Web and Native Apps. It is progressive because it is constantly progressing."</i></strong>  <a href="https://codeburst.io/all-you-need-to-know-about-progressive-web-app-4ba73368da66" >Read More:</a>  </p>
+<div class="callout">
+<ul class="menu simple">
+<li><a href="https://souravnanda.me/">Author: Sourav Kumar Nanda</a></li>
+<li><a href="#">Comments: </a></li>
+</ul>
+</div>
+</div>
+
+
+</div>
+    <script>
+
+        if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js', {
+        scope: '.' // <--- THIS BIT IS REQUIRED
+    }).then(function(registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+    });
+}
+</script>
+    
+
+</body>
+   
+</html>
